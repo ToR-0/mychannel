@@ -1,0 +1,10 @@
+
+.nav-box{ z-index: 1; overflow:hidden;position:fixed;background-color:#f6f6f6; text-align:center; height:80px;width:100%}
+.logo {position:absolute;color:black; text-align:left; font-size:40px;height:60px; margin-left:10x; margin-bottom:-20px; margin-top:-50px; overflow:hidden; display:block; left:0px;}
+.logo:hover{color:white; display: block;}
+.style-list i{position: relative;display: inline-block;text-align:left; margin-left: 1400px; height:30px;top:-0px; background-color:black;color:white;}
+/*ffd*/
+.logo img{height: 100px;width :100px; no-repeat:none; margin-top:-20px;}
+.navbar .nav-box #site-search{margin-top:40px;height:30px; width:40%}
+.navbar .nav-box button{height:30;border:none;background-color:#4c4c70;color:white;margin-top:40px;}
+.contener-icons.contener-ico {position:absolute; right:60px; font-size:30px; top:20;height:30px; width:20px;display:inline;}

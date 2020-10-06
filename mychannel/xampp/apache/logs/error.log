@@ -1,0 +1,70 @@
+[Sat Aug 22 16:45:10.489941 2020] [ssl:warn] [pid 344:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:45:10.781928 2020] [ssl:warn] [pid 344:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:45:11.007012 2020] [mpm_winnt:notice] [pid 344:tid 584] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 configured -- resuming normal operations
+[Sat Aug 22 16:45:11.007012 2020] [mpm_winnt:notice] [pid 344:tid 584] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Sat Aug 22 16:45:11.008012 2020] [core:notice] [pid 344:tid 584] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Aug 22 16:45:11.019539 2020] [mpm_winnt:notice] [pid 344:tid 584] AH00418: Parent: Created child process 1532
+[Sat Aug 22 16:45:13.576820 2020] [ssl:warn] [pid 1532:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:45:13.860368 2020] [ssl:warn] [pid 1532:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:45:13.978363 2020] [mpm_winnt:notice] [pid 1532:tid 568] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 22 16:48:04.365596 2020] [ssl:warn] [pid 2944:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:48:05.242985 2020] [ssl:warn] [pid 2944:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:48:05.420984 2020] [mpm_winnt:notice] [pid 2944:tid 568] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 configured -- resuming normal operations
+[Sat Aug 22 16:48:05.420984 2020] [mpm_winnt:notice] [pid 2944:tid 568] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Sat Aug 22 16:48:05.420984 2020] [core:notice] [pid 2944:tid 568] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Aug 22 16:48:05.463983 2020] [mpm_winnt:notice] [pid 2944:tid 568] AH00418: Parent: Created child process 6832
+[Sat Aug 22 16:48:11.716484 2020] [ssl:warn] [pid 6832:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:48:12.141736 2020] [ssl:warn] [pid 6832:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 16:48:12.321812 2020] [mpm_winnt:notice] [pid 6832:tid 528] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 22 19:51:59.655726 2020] [php7:error] [pid 6832:tid 1792] [client ::1:64269] PHP Parse error:  syntax error, unexpected 'result' (T_STRING) in C:\\xampp\\htdocs\\index.php on line 15
+[Sat Aug 22 19:54:13.835927 2020] [php7:error] [pid 6832:tid 1972] [client ::1:52013] PHP Fatal error:  Uncaught Error: Class 'mysql' not found in C:\\xampp\\htdocs\\index.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\index.php on line 10
+[Sat Aug 22 20:00:04.823431 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52040] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:04.823431 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52040] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:04.824431 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52040] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:04.825430 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52040] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:04.825430 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52040] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:50.050707 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52044] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:50.052722 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52044] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:50.053708 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52044] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:50.054702 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52044] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:00:50.054702 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52044] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:01:07.260187 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52049] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:01:07.261181 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52049] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:01:07.261181 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52049] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:01:07.262181 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52049] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:01:07.262181 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52049] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:03:39.069390 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52055] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:03:39.069390 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52055] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:03:39.070374 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52055] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:03:39.071376 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52055] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:03:39.072376 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52055] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:06:06.862421 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52061] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:06:06.863419 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52061] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:06:06.863419 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52061] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:06:06.864422 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52061] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:06:06.865423 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52061] PHP Notice:  Undefined index: users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:17.893008 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:17.893008 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:17.894008 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:17.895006 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:17.895006 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:19.202903 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:19.203917 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:19.204927 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:19.204927 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:19.205915 2020] [php7:notice] [pid 6832:tid 1972] [client ::1:52128] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.024920 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.025918 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.025918 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.026918 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.026918 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.951636 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.951636 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.952638 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.952638 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:11:37.953634 2020] [php7:notice] [pid 6832:tid 1792] [client ::1:52134] PHP Notice:  Undefined index: db_users in C:\\xampp\\htdocs\\index.php on line 17
+[Sat Aug 22 20:28:37.303286 2020] [php7:warn] [pid 6832:tid 1972] [client ::1:52422] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\index.php on line 14
+[Sat Aug 22 20:30:06.898732 2020] [php7:warn] [pid 6832:tid 1792] [client ::1:52425] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\index.php on line 14
+[Sat Aug 22 20:30:42.096715 2020] [php7:warn] [pid 6832:tid 1972] [client ::1:52429] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\index.php on line 14
+[Sat Aug 22 20:31:59.461298 2020] [php7:warn] [pid 6832:tid 1792] [client ::1:52434] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\index.php on line 14
+[Sat Aug 22 20:32:15.127748 2020] [php7:warn] [pid 6832:tid 1972] [client ::1:52438] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\index.php on line 14

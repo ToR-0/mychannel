@@ -1,0 +1,38 @@
+body{-webkit-border-radius: 5px;-moz-border-radius: 5px -o-border-radius: 5px; border-radius: 5px; -o-border-radius: 5px;}
+
+
+.nav-box{ z-index: 1; overflow:hidde;position:fixed;background-color:#f6f6f6; text-align:center; height:80px;width:100%}
+.logo {position:absolute;color:black; text-align:left; font-size:40px;height:60px; margin-left:10x; margin-bottom:-20px; margin-top:-50px; overflow:hidden; display:block;}
+.logo:hover{color:white; display: block;}
+.style-list i{position: relative;display: inline-block;text-align:left; margin-left: 1400px; height:30px;top:-0px; background-color:black;color:white;}
+/*ffd*/
+.logo img{height: 100px;width :100px; no-repeat:none; margin-top:-20px;}
+.navbar .nav-box #site-search{margin-top:40px;height:30px; padding-right:40px;width:34%}
+.navbar .nav-box button{height:30;border:none;background-color:#4c4c70;color:white;margin-top:40px; margin-left:5px;}
+.contener-icons{margin-left:1100px; margin-top:-30px;font-size:20px; padding-left:10px;}
+.contener-icons.contener-ico{ margin-right: 10px;position:absolute;font-size:30px;height:30px; width:20px;}
+.contener-ico{display:inline-flex;list-style:none;}
+.activ,contener-ico ul li:hover{}
+.contener-drop-down{margin-top:-70;}
+/*header end test*/
+  .dropbtn {background-color: red;color: white;font-size: 16px;border: none;cursor: pointer;}
+.dropdown { position: relative; display: inline-block;}
+.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); margin-left:-140px;}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #616A6B;}
+.dropdown{margin-right:40px; float:right;}
+.contener-drop-down .dropbtn{pointer:absolute;}
+/*header end*/
+
+.contener-1{ z-index: 2;height:1500px; background: #f2f2f2; display: block;margin-left:400px; overflow:auto; margin-top:30px;width:50%}
+.aside{ z-index: 3;height:120px;display: block; background: height:24px;background-color:yellow; overflow:auto;margin-top:-1500px;margin-left:10px; width:20%}
+.aside a:hover{color:purple; background-color:red;}
+.aside a{font-size:25px; style-list:none;padding-left: 10px; background-color:; overflow:auto;margin-top:-1500px;margin-left:10px; width:20%}
+.footer{ z-index:4 ;background-color:#f6f6f6;position:absolute; top:1700px; height:300px; width:100%}
+.btn-footer{padding-top:200px;font-size: 24px;}
+.list-footer {font-size:12px;float:right; display:inline;margin-right:15px; margin-top:-55px;overflow:hidden;list-style-type: none;padding-right: 20px;}
+
+
+

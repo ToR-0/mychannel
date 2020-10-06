@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>personal channel</title>
+<link rel="stylesheet" href="C:\xampp\htdocs\test\css/personalstyle.css">
+</head>
+
+<body>
+
+<div class="contener">
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar">
+<div class="nav-box">
+      <label for="site-search">Search the site:</label>
+       <input type="search" id="site-search" name="q"
+        aria-label="Search through site content">
+         <button>Search</button>
+		  <div class="logo"><a><span><img src="C:\xampp\htdocs\test\icons/icon.ico" alt=""></span></a>
+          </div>
+		  <div class="contener-icons">
+		     <ul class="contener-ico">
+			 <li>live</li>
+			 <li>notfacations</li>
+			 <li>list</li>
+			 </ul>
+		    </div>
+		   </div>
+		  <div class="dropdown">
+		  
+			 </div>
+           </nav>
+		   
+<div class="cover-image">
+here is banner channel
+ </div>
+  <div class="button-upload-foto">
+   <button>upload foto</button>
+   </div>
+  <div class="profile-image">
+   here is profile-image
+    </div>
+	 <div class="btn-cust-channel">
+	  <button>custumize channel</button>
+	   </div>
+	    <ul>
+		 <li>Home</li>
+		  <li>Videos</li>
+		   <li>PlayLists</li>
+		    <li>Channels</li>
+		     <li>Discussion</li>
+		      <li>About</li>
+		 </ul>
+	    <hr>
+	 <div class="aside">
+	 here is a side
+	 </div>
+
+</body>
+</html>
